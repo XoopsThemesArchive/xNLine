@@ -1,0 +1,121 @@
+/* 
+Webmaster, Do Not Remove This Credit. See README.txt
+Design by MyWebResource: http://mywebresource.com/
+*/
+body {margin:0;padding:0;background:#FFFEFE;color:#000;background-image:url(images/pagebak.png);background-position:top;background-repeat:repeat-x;font:1em Arial,Helvetica,sans-serif}
+h1 {margin:0;padding:0}
+h2 {margin:0;padding:0}
+h3 {margin:0;padding:0}
+ul {margin:0;padding-left:12px;list-style:circle}
+li {margin:3px 0 3px 10px}
+li a {line-height:150%}
+hr {color:#C00;border:none;height:1px;background:#C00}
+a {background:transparent;color:#777;font-weight:bold;text-decoration:none}
+a:hover {background:transparent;color:#C00;text-decoration:underline}
+#header {font-size:0.75em;margin:0 0 27px;padding:0;background:#900;color:#fff;background-image:url(images/headerbak.jpg);background-position:top;background-repeat:repeat-x;border-bottom:1px solid #333}
+#skipnav a {background:transparent;color:#fff;padding:4px}
+#skipnav a:hover {background:transparent;color:#fff;padding:4px}
+#skipnav {float:right;padding:0 0.5em 0 0}
+#sitename {margin:0;padding:0.36em 0 0 0.25em;font-size:2em;font-weight:bold}
+#pagetitle h1 {margin:0 0 12px;padding:0 0 0 0.4em;font-size:1.25em}
+#wrap {background:#FFF;color:#333;border-left:1px solid #333;border-right:1px solid #333;width:768px;margin:auto;background-image:url(images/wrapbak.png);background-position:top;background-repeat:repeat-x}
+.bannerads {font-size:0.75em;padding:8px 4px 4px;clear:both}
+#maincontent {font-size:0.75em;padding:4px}
+.blockTitle {margin:2px;border-bottom:1px solid #C00}
+.blockTitle h2 {font-size:130%;font-weight:bold;margin:0;padding:0.25em}
+.blockTitle h3 {font-size:120%;font-weight:bold;margin:0;padding:0.25em}
+.blockContent {padding:0.5em}
+#footer {font-size:0.75em;margin:0;padding:0.5em;background:#900;color:#fff;background-image:url(images/headerbak.jpg);background-position:top;background-repeat:repeat-x;border-top:1px solid #333}
+#footer a {background:transparent;color:#fff;padding:4px}
+#footer a:hover {background:transparent;color:#fff;padding:4px}
+#xoopsfooter {text-align:left}
+#bottomnav {padding:0 0 4px;float:right}
+.outer {border:1px solid #CCC}
+.head {padding:3px;font-weight:normal;background:#e7e7e7}
+.even {padding:3px;background:#e7e7e7}
+.odd {padding:3px;background:#f7f7f7}
+.foot {color:#F7F7F7;padding:3px;font-weight:bold;text-align:center;background:#777}
+.foot a {color:#F7F7F7;text-decoration:underline}
+.foot a:hover {color:#C00}
+tr.head td {padding:3px;font-weight:bold;background:#DEDEDE}
+tr.even td {padding:3px;background:#efefef}
+tr.odd td {padding:3px;background:#f7f7f7}
+tr.foot td {padding:3px;font-weight:bold;background:#f7f7f7}
+.search_block {margin-top:0}
+#notifs_form {display:none}
+div.errorMsg {text-align:center;border-top:1px solid #DDF;border-left:1px solid #DDF;border-right:1px solid #AAA;border-bottom:1px solid #AAA;font-weight:bold;padding:10px;background:#FCC}
+div.confirmMsg {color:#136C99;text-align:center;border-top:1px solid #DDF;border-left:1px solid #DDF;border-right:1px solid #AAA;border-bottom:1px solid #AAA;font-weight:bold;padding:10px;background:#DDFFDF}
+div.resultMsg {color:#333;text-align:center;border-top:1px solid silver;border-left:1px solid silver;font-weight:bold;border-right:1px solid #666;border-bottom:1px solid #666;padding:10px;background:#CCC}
+div.xoopsCode,div.xoopsQuote {background:#FAFAFA;border:1px solid #6C87B0;color:#385a72;width:400px;max-height:250px;margin:auto;overflow:auto;padding:5px;font:11px FixedSys,"Courier New",Courier,monospace}
+#authorbox {padding:4px;border:1px solid #333;background:#efefef;color:#333}
+.gads {margin:0 0 0 4px;float:right}
+.topgads {margin:4px 0;display:block}
+a.mwrlinks {display:block;padding:1px 0 1px 5px;margin:0.125em;text-decoration:none;background:#F7F7F7;color:#333;border-right:5px solid #e7e7e7}
+a.mwrlinks:hover {background:#777;color:#fff;border-right:5px solid #C00}
+a.mwrsublinks {display:block;padding:1px 0 1px 15px;margin:0.125em;background:#F7F7F7;color:#C00;text-decoration:none;border-right:5px solid #e7e7e7}
+a.mwrsublinks:hover {background:#777;color:#fff;border-right:5px solid #C00}
+.light_row {font-size:110%;background:#F7F7F7}
+.dark_row {font-size:110%;background:#E7E7E7}
+.default_td {border:1px solid #CCC;font-size:110%}
+.default_th {border:1px solid #CCC;font-size:110%;background:#777}
+.default_a:link {color:#777;text-decoration:none}
+.default_a:hover {color:#C00;text-decoration:none}
+.button {color:#333;text-align:left;vertical-align:middle;cursor:pointer;border:none;padding:3px 10px;background:#F7F7F7;font:bold 11px sans-serif}
+.paragraph {background:#F7F7F7;color:#333;font-size:110%}
+.default_hr {color:#333;border:none;width:75%;height:1px;background:#333}
+.fixed_width {background:#F7F7F7;color:#333;font:1em lucida console,sans-serif}
+.black_link {color:#fff;text-decoration:none}
+.small {font-size:90%}
+.minibuttonlink {margin:1px}
+#formitems {padding:4px;margin:4px 0;display:block;clear:both}
+#login {width:400px;float:left}
+#searchform {width:350px;float:right}
+.loginform {margin:0;padding:0;text-align:left}
+.searchform {margin:0;padding:0;text-align:right}
+.formstext {border:1px solid #777;margin:1px 0 0;padding:0;height:14px;background:#FFF;font-size:0.95em}
+.formsbutton {border:1px solid #777;margin:1px 0 0;padding:0;height:16px;background:#FFF;font-size:0.95em}
+.sssread {text-align:right;display:block;padding:0.25em}
+.ssauthor {color:#C00;font-weight:bold}
+.akeys {font-size:1%}
+.txtadv {text-align:center;clear:both}
+.toptxtadv {text-align:center;clear:both;font-size:0.75em;margin:3px 0 0}
+.toptxtadv a {background:transparent;color:#777;font-weight:bold;text-decoration:none}
+.toptxtadv a:hover {background:transparent;color:#C00;text-decoration:underline}
+ul#links44896 {width:100%;list-style:none;overflow:hidden;margin:0;padding:0;border:0;border-spacing:0}
+ul#links44896 li {display:inline;float:left;clear:none;width:50%;padding:0;margin:0}
+ul#links44896 li span {display:block;width:100%;padding:3px;margin:0;color:#333}
+ul#links44896 li span a {color:#777}
+#chromemenu {display:block;margin:0;padding:0;position:absolute;top:69px;left:0;right:0}
+#chromemenu:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+#chromemenu ul {width:100%;background:url(images/chromebg.gif) center repeat-x;padding-left:0;margin:0;float:left;font:bold 0.9em Verdana}
+#chromemenu ul li {display:inline}
+#chromemenu ul li a {float:left;color:#777;font-weight:bold;padding:6px 12px 6px 7px;text-decoration:none;background:url(images/divider.gif) center right no-repeat}
+#chromemenu ul li a:hover {color:#C00;text-decoration:underline;background:transparent}
+#chromemenu h2 {margin:0;padding:0;font-size:0.90em}
+.dropmenudiv {position:absolute;top:0;border:1px solid #BBB;border-bottom-width:0;font:normal 0.90em Verdana;line-height:14px;z-index:100;color:black;width:130px;visibility:hidden;filter:progid:DXImageTransform.Microsoft.Shadow(color=#333,direction=135,strength=4);background:white}
+.dropmenudiv a {width:100%;display:block;text-indent:3px;border-bottom:1px solid #BBB;padding:2px 0;text-decoration:none;font-weight:bold;color:black}
+.dropmenudiv a:hover {color:#C00;text-decoration:underline;background:#EFEFEF}
+#kontera {display:none}
+.blockleft {width:49%;float:left}
+.blockright {width:49%;float:right}
+#content {padding:4px}
+tbody {text-align:left}
+table {width:100%;text-align:left}
+th {padding:4px;margin:0;background:#777;color:#fff}
+th a {color:#f7f7f7}
+th a:hover {color:#C00;text-decoration:underline}
+td {vertical-align:top}
+.itemText {border-bottom:1px dotted #999;padding:0.25em;background:#fff;color:#333}
+.itemText h3 {padding:0.125em 0;font-size:1.35em;margin:0;border-bottom:1px dotted #999}
+.itemInfo {border:1px solid #999;padding:0.25em;background:#EFEFEF;color:#333}
+.newsl {width:48%;float:left}
+.newsr {width:48%;float:right}
+.entry {padding:0.25em;border-top:1px solid #999;border-bottom:1px solid #999;background:#F7F7F7;color:#333}
+.postmetadata {padding:0.25em;background:#777;color:#fff}
+.postmetadata a {background:transparent;color:#fff}
+.postmetadata a:hover {background:transparent;color:#f00}
+.narrowcolumn {margin:0 170px 0 0}
+/* 
+Webmaster, Do Not Remove This Credit. See README.txt
+Design by MyWebResource: http://mywebresource.com/
+*/

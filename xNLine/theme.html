@@ -1,0 +1,195 @@
+<!-- 
+Webmaster, Do Not Remove This Credit. See README.txt
+Design by MyWebResource: http://mywebresource.com/
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><{$xoops_sitename}>: <{$xoops_pagetitle}></title>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_imageurl}>style.css" />
+<link rel="alternate" type="application/rss+xml" title="<{$xoops_sitename}>" href="<{$xoops_url}>/backend.php" />
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<script type="text/javascript" src="<{$xoops_imageurl}>chromejs/chrome.js">
+/***********************************************
+* Chrome CSS Drop Down Menu- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+</head>
+<body> 
+<div id="header"> 
+  <div id="chromemenu"> 
+    <ul> 
+      <li> 
+        <h2><a href="#maincontent" title="Skip Navigation">SkipNav</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>" title="Home" accesskey="1">Home</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/smartsection/" onmouseover="cssdropdown.dropit(this,event,'dropmenu1')" title="Articles" accesskey="2">Articles</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/wordpress/" onmouseover="cssdropdown.dropit(this,event,'dropmenu2')" title="Blog" accesskey="3">Blog</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/mydownloads/" onmouseover="cssdropdown.dropit(this,event,'dropmenu3')" title="Downloads" accesskey="4">Downloads</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/xhld0/" title="Headlines" accesskey="5">Headlines</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/mylinks/" onmouseover="cssdropdown.dropit(this,event,'dropmenu5')" title="Links" accesskey="6">Links</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/newbb/" title="Forum" accesskey="7">Forum</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/sitemap/" title="Sitemap" accesskey="8">Sitemap</a></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/user.php" onmouseover="cssdropdown.dropit(this,event,'dropmenu8')" accesskey="9" <{if $xoops_isuser}>title="User Control Panel">User CP</a><{else}>title="Login">Login</a><{/if}></h2> 
+      </li> 
+      <li> 
+        <h2><a href="<{$xoops_url}>/modules/liaise/" title="Contact Us" accesskey="0">Contact Us</a></h2> 
+      </li> 
+    </ul> 
+  </div> 
+  <!--1st drop down menu --> 
+  <div id="dropmenu1" class="dropmenudiv"> <a href="<{$xoops_url}>/modules/smartsection/submit.php" title="Submit an Article">Submit an Article</a> </div> 
+  <!--2nd drop down menu --> 
+  <div id="dropmenu2" class="dropmenudiv"> <a href="<{$xoops_url}>/modules/wordpress/wp-admin/post.php" title="Submit a Post">Submit a Post</a> </div> 
+  <!--3rd anchor link and menu --> 
+  <div id="dropmenu3" class="dropmenudiv"> <a href="<{$xoops_url}>/modules/mydownloads/topten.php?hit=1" title="Submit a Post">Popular Downloads</a> <a href="<{$xoops_url}>/modules/mydownloads/submit.php" title="Submit a Post">Submit a Download</a></div> 
+  <!--5th anchor link and menu --> 
+  <div id="dropmenu5" class="dropmenudiv"> <a href="<{$xoops_url}>/modules/mylinks/topten.php?hit=1" title="Popular Links">Popular Links</a> <a href="<{$xoops_url}>/modules/mylinks/submit.php" title="Submit a Link">Submit a Link</a> </div> 
+  <!--8th anchor link and menu --> 
+  <div id="dropmenu8" class="dropmenudiv"> <{if $xoops_isuser}> 
+    <a href="<{$xoops_url}>/notifications.php" title="Notifications">Notifications</a>
+    <a href="<{$xoops_url}>/viewpmsg.php" title="Private Messages">Private Messages</a> <a href="<{$xoops_url}>/edituser.php" title="Edit Profile">Edit Profile</a> <a href="<{$xoops_url}>/user.php?op=logout" title="Logout">Logout</a> <{else}> <a href="<{$xoops_url}>/user.php#lost" title="Lost password">Lost password</a> <a href="<{$xoops_url}>/register.php" title="Register">Register</a> <{/if}> <{if $xoops_isadmin}><a href="<{$xoops_url}>/admin.php" title="Site Admin">Site Admin</a><{/if}> </div> 
+<div id="logo">  
+<div id="sitename"><{$xoops_sitename}></div> 
+  <div id="pagetitle"> 
+    <h1><{$xoops_pagetitle}></h1> 
+  </div> 
+</div>
+</div>
+<div id="wrap">
+  <div id="maincontent"> 
+    <div class="toptxtadv"> 
+	<{$xoops_banner}>
+	<hr />
+    </div>
+    <div class="blockleft"> 
+      <!-- Start left blocks loop --> 
+<{foreach item=block from=$xoops_lblocks}> <{if $block.title != ""}> 
+      <div class="blockTitle"> 
+        <h2><{$block.title}></h2> 
+      </div> 
+<{/if}> 
+      <div class="blockContent"><{$block.content}></div> 
+<{/foreach}> 
+      <!-- End left blocks loop --> 
+    </div> 
+    <div class="blockright"> 
+      <!-- Start right blocks loop --> 
+<{foreach item=block from=$xoops_rblocks}> <{if $block.title != ""}> 
+      <div class="blockTitle"> 
+        <h2><{$block.title}></h2> 
+      </div> 
+<{/if}> 
+      <div class="blockContent"><{$block.content}></div> 
+<{/foreach}> 
+      <!-- End right blocks loop --> 
+    </div> 
+<{if $xoops_contents != ""}> 
+    <div id="content"><{$xoops_contents}></div> 
+<{/if}> 
+    <!-- Start center-center blocks loop --> 
+<{foreach item=block from=$xoops_ccblocks}> <{if $block.title != ""}> 
+    <div class="blockTitle"> 
+      <h2><{$block.title}></h2> 
+    </div> 
+<{/if}> 
+    <div class="blockContent"><{$block.content}></div> 
+<{/foreach}> 
+    <!-- End center-center blocks loop --> 
+    <div class="blockleft"> 
+      <!-- Start center-left blocks loop --> 
+<{foreach item=block from=$xoops_clblocks}> <{if $block.title != ""}> 
+      <div class="blockTitle"> 
+        <h2><{$block.title}></h2> 
+      </div> 
+<{/if}> 
+      <div class="blockContent"><{$block.content}></div> 
+<{/foreach}> 
+      <!-- End center-left blocks loop --> 
+    </div> 
+    <div class="blockright"> 
+      <!-- Start center-right blocks loop --> 
+<{foreach item=block from=$xoops_crblocks}> <{if $block.title != ""}> 
+      <div class="blockTitle"> 
+        <h2><{$block.title}></h2> 
+      </div> 
+<{/if}> 
+      <div class="blockContent"><{$block.content}></div> 
+<{/foreach}> 
+      <!-- End center-right blocks loop --> 
+    </div> 
+    <div class="txtadv"> 
+	<hr />
+      <center> 
+       <!-- Static buttons and/or links -->
+      </center> 
+	 <hr />
+	 <div id="formitems"> <{if $xoops_isuser == false}> 
+      <div id="login"> 
+        <form class="loginform" action="<{$xoops_url}>/user.php" method="post"> 
+          <input type="text" class="formstext" name="uname" size="12" onfocus="this.value=''" value="User Name" /> 
+          <input type="password" class="formstext" name="pass" size="12" onfocus="this.value=''" value='myxoops'/> 
+          <input type="hidden" name="xoops_redirect" value="/index.php" /> 
+          <input type="hidden" name="op" value="login" /> 
+          <input type="submit" class="formsbutton" value="Login" /> 
+        </form> 
+      </div> 
+<{/if}> 
+      <div id="search"> 
+        <form class="searchform" action="<{$xoops_url}>/search.php" method="get"> 
+          <input type="text" class="formstext" name="query" size="14" /> 
+          <input type="hidden" name="action" value="results" /> 
+          <input type="submit" class="formsbutton" value="Search" /> 
+        </form> 
+      </div> 
+    </div> 
+    </div> 
+  </div> 
+</div> 
+<div id="footer"> 
+  <div id="bottomnav"><a href="#" title="Back to Top">Back to Top</a></div> 
+  <div id="xoopsfooter"><{$xoops_footer}><br /> 
+    Page Load Statistics: <{php}>echo round(($GLOBALS['xoopsLogger']->dumpTime()), 3)." Seconds | ".count($GLOBALS['xoopsLogger']->queries)." Queries"; <{/php}><br /> 
+Design by <a href="http://mywebresource.com/" title="MyWebResource: Webmaster Resources">MyWebResource</a></div> 
+</body>
+</html>
+<!-- 
+Webmaster, Do Not Remove This Credit. See README.txt
+Design by MyWebResource: http://mywebresource.com/
+-->
